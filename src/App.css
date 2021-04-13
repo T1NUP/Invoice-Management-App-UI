@@ -1,0 +1,39 @@
+
+body{
+  background-image: radial-gradient(circle, #58687E 0%, #39495E 100%);
+  font-size: calc(0.75vh + 0.75vw);
+<<<<<<< HEAD
+  margin: 0 0;
+=======
+>>>>>>> 3b8ae91a9eb9b70badcdddc3ca45e7ae08e26776
+}
+
+.main{
+  color: white;
+  margin: 0px;
+  /* height: 100vh; */
+  /* width: 100vw;  */
+}
+.header{
+  opacity: 1;
+  padding: 2vh 1vw ;
+  margin-left: 1.3vw;
+  /* box-sizing: border-box; */
+  height: 6vh;
+  width: 80vw; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text-invoice{
+  font: normal  Arial;
+  font-size: 3.15vh;
+<<<<<<< HEAD
+  margin: 4vh 0 0 0;
+  padding: 0.5vh 1.5vw;
+=======
+  margin: 0px;
+  padding: 0 1.5vw;
+>>>>>>> 3b8ae91a9eb9b70badcdddc3ca45e7ae08e26776
+}
