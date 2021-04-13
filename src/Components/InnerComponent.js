@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
+
 import UpdateModal from './UpdateModal';
 import { withStyles } from "@material-ui/core/styles";
 import { Paper,TableHead ,lighten, makeStyles,TableContainer, Table,CircularProgress,
@@ -495,27 +495,13 @@ function InnerComponent(props)
             </InfiniteScroll>
             </TableContainer>
             </Paper>
-=======
-import './innerCompoment.css';
-import { Paper,TableHead ,lighten, makeStyles} from '@material-ui/core';
-
-function InnerComponent()
-{
-
-
-        return(
-            <div className="Page">
-             <Paper>
-                 <TableHead>
-                 </TableHead>
-             </Paper>
->>>>>>> 3b8ae91a9eb9b70badcdddc3ca45e7ae08e26776
             </div>
-        )
+            )
+            }
+            
 
-}
 
-<<<<<<< HEAD
+
 const mapStateToProps = (state) => {
   console.log("INIT", state);
   return {
@@ -537,6 +523,4 @@ export default connect(mapStateToProps, mapDispatchToProps)(InnerComponent);
 //from calling AllShow api, When something is searched it is a true flag is set and all matching data is shown after 
 //calling Search Api.
 //Redux strore is maintained in the whole App to deal with selected and unselected data/records/table row.
-=======
-export default InnerComponent;
->>>>>>> 3b8ae91a9eb9b70badcdddc3ca45e7ae08e26776
+

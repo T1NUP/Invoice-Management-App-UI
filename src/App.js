@@ -6,11 +6,8 @@ import InnerCompoment from './Components/InnerComponent.js'
 
 class App extends Component {
 
-<<<<<<< HEAD
+
   //This is the static part of the website
-  
-=======
->>>>>>> 3b8ae91a9eb9b70badcdddc3ca45e7ae08e26776
   state = { 
     id: 1,
     name: "punit"
